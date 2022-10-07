@@ -2,7 +2,6 @@
 
 This provides a minimum template to get Java Processing set up with visual studio code, the best dang coding editor out there!
 
-
 ## Getting Started
 
 ### Install Dependencies
@@ -22,8 +21,10 @@ Microsoft provides a downloader that will help you install everything you need. 
 If you want to go this route, you'll need to install all three things below.
 
 1. [Visual Studio Code](http://code.visualstudio.com) - The editor where we will type code
-2. [Java SDK](http://www.adoptopenjdk.net) - the Java Developer Kit, lets us write java (choose version 11, the default)
-3. [Visual Studio Code Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) - Installs more complete java support inside of visual studio code
+
+2. [Visual Studio Code Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) - Installs more complete java support inside of visual studio code
+
+Once the extension pack is installed, you can use the java tools in Visual Studio Code to install your java JDK, which is necessary to run the code. It should hopefully prompt you when the time comes! You can install java 11 or 17, but if for some reason you are getting an error you can also go backwards to Java 8 and try that (maybe on macs?)
 
 ### Download this project
 
@@ -37,6 +38,6 @@ It may take a minute to open the file, enable all the java extensions, and read 
 
 ### Try running the project
 
-Open the `Sketch.java` file, which is inside the `src` folder, then press `F5` or choose Run->Start Debugging . You should get a window with some bouncing balls!
+Open the `Sketch.java` file, which is inside the `src` folder, then press `F5` or choose Run->Start Debugging . You should get a window with a circle and as you drag your mouse around it draws new circles!
 
-You are ready to start tweaking the code in `Sketch.java` and `ball.java`. Good luck!
+You are ready to start tweaking the code in `Sketch.java`. Good luck!
