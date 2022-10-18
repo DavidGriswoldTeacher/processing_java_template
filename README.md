@@ -41,3 +41,7 @@ It may take a minute to open the file, enable all the java extensions, and read 
 Open the `Sketch.java` file, which is inside the `src` folder, then press `F5` or choose Run->Start Debugging . You should get a window with a circle and as you drag your mouse around it draws new circles!
 
 You are ready to start tweaking the code in `Sketch.java`. Good luck!
+
+## Alternative Pathway using Gitpod
+
+Go to the top of this screen, where the address is, and add `https://gitpod.io/#` BEFORE the address of this template. Wait a few minutes and a full copy of this code should open in the cloud for you. You can run the code as above and use the VNC viewer in port 6080 (see the Ports menu) to access the visuals.
