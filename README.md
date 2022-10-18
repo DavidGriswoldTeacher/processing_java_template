@@ -1,12 +1,12 @@
-# Bouncing Balls - A VS Code Processing Java Template
+# A VS Code Processing Java Template
 
-This provides a minimum template to get Java Processing set up with visual studio code, the best dang coding editor out there!
+This provides a minimum template to get Java Processing set up with visual studio code, the best dang coding editor out there! It also provides the option of using the online cloud editor Gitpod, which will be slower but will also work in any modern web browser.
 
-## Getting Started
+## Getting Started with VS Code
 
 ### Install Dependencies
 
-Before you can use this, you need to install Visual Studio Code, the Java Developer Kit, and a bunch of extensions. You have two pathways forward, pick whichever you prefer
+Before you can use this locally, you need to install Visual Studio Code, the Java Developer Kit, and a bunch of extensions. You have two pathways forward, pick whichever you prefer
 
 #### Install everything in one go (easiest)
 
@@ -24,7 +24,7 @@ If you want to go this route, you'll need to install all three things below.
 
 2. [Visual Studio Code Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) - Installs more complete java support inside of visual studio code
 
-Once the extension pack is installed, you can use the java tools in Visual Studio Code to install your java JDK, which is necessary to run the code. It should hopefully prompt you when the time comes! You can install java 11 or 17, but if for some reason you are getting an error you can also go backwards to Java 8 and try that (maybe on macs?)
+Once the extension pack is installed, you can use the java tools in Visual Studio Code to install your java JDK, which is necessary to run the code. It should hopefully prompt you when the time comes! I recommend java version 17, that latest LTS version as of this writing.
 
 ### Download this project
 
